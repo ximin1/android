@@ -6,6 +6,10 @@
            review="review.exthmui.cn"
            revision="refs/heads/exthm-11" />
 
+  <remote  name="ximin"
+           fetch="https://github.com/ximin1"
+           revision="refs/heads/exthm-11" />
+
   <remote  name="exthmui-devices"
            fetch="https://github.com/exTHmUI-Devices"
            review="review.exthmui.cn"
@@ -34,8 +38,8 @@
   <project path="external/libfuse" name="android_external_libfuse" remote="exthm" />
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="android_frameworks_base" remote="exthm" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="exthm" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="ximin" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="ximin" />
 
   <!-- Packages -->
   <project path="packages/apps/exTHmSettings" name="android_packages_apps_exTHmSettings" remote="exthm" />
